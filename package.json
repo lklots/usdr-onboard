@@ -1,0 +1,14 @@
+{
+  "name": "usdr-onboard",
+  "version": "1.0.0",
+  "description": "Automating the onboarding flow for the USDR",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "levy@usdigitalresponse.org",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^14.3.3"
+  }
+}
