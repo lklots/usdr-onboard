@@ -4,11 +4,17 @@
   "description": "Automating the onboarding flow for the USDR",
   "main": "index.js",
   "scripts": {
+    "start": "npx nodemon",
     "test": "standard"
   },
   "author": "levy@usdigitalresponse.org",
   "license": "ISC",
   "devDependencies": {
     "standard": "^14.3.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "puppeteer": "^3.0.1"
   }
 }
